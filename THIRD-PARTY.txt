@@ -1,0 +1,28 @@
+AM2R Project Restore Tool
+
+The verified-original and binary-patch workflow derives from the AM2R Android
+Autopatcher under its MIT license. The copyright and permission notice is in
+LICENSE. This tool is separate from its Android application.
+https://github.com/am2r-android/AM2R-Autopatcher-Android
+
+xdelta3 is a decoder/encoder dependency by Joshua MacDonald. The portable
+application includes xdelta3 3.2.2 under Apache License 2.0. The standalone
+Python source can also use a separately installed decoder. The portable archive
+includes the matching notices in licenses/.
+https://github.com/jmacd/xdelta
+
+Portable applications also include Python, Tcl/Tk and supporting libraries.
+Their original notices are in licenses/. PyInstaller supplies the executable
+loader under its license and application-bundling exception. BUILD-INFO.json
+records the build versions; restorer-source.zip contains this utility's source.
+https://www.python.org/
+https://www.tcl-lang.org/
+https://pyinstaller.org/
+
+GMXDataSync by YellowAfterlife supplies the historical source-restoration model.
+Its implementation is not included or copied here. It targets legacy GMX projects;
+the supplied projects use modern GameMaker YYP definitions and versioned manifests.
+https://github.com/YAL-GameMaker-Tools/GmxDataSync
+
+The game projects retain their own source and third-party notices. Neither this
+tool's MIT license nor this notice grants rights to game art, music or other media.

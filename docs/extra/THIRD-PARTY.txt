@@ -1,0 +1,28 @@
+Source provenance and notices
+
+Inherited game code retains the AM2R Community Updates conditions in LICENSE.txt.
+This archive does not relicense inherited code under a permissive license.
+Upstream publication reference: AM2R-Community-Developers/AM2R-Community-Updates,
+revision e500c5e20831293e14d8999c22c2b7aec82dd910.
+https://github.com/AM2R-Community-Developers/AM2R-Community-Updates
+
+Like that reference, this export retains code and resource definitions but omits
+image, sound, font payloads, datafiles and compiled games. The reference uses GMX;
+this converted Android port uses YYP. Their asset import steps are not interchangeable.
+The port's Android extension code and manifests are included as editable source.
+
+shPaletteSwap and pal_swap_init_system / pal_swap_set adapt RetroPaletteSwapper
+by PixelatedPope. The upstream implementation is MIT-licensed; its full notice
+is included in LICENSES/RetroPaletteSwapper-LICENSE.txt.
+https://github.com/PixelatedPope/RetroPaletteSwapper
+
+shGameBoy is the port replacement implementation, not the former commercial
+shader source. The older community README's paid-shader instructions do not
+describe these current implementations. The port's shSharpPixel is also included.
+
+No license to artwork, audio, fonts or other excluded media is granted here.
+Original authors' required notices remain. Revision history, proprietary runtime
+code, binary libraries, signing material and private build settings are excluded.
+
+The separate AM2R Project Restore Tool utility uses the patcher tooling's MIT
+license in LICENSES/Tools-LICENSE.txt. This does not relicense any game source.

@@ -1,0 +1,77 @@
+AM2R Project Restore Tool 0.2.0
+
+Supported published GameMaker source archives (both editions):
+https://github.com/am2r-android/AM2R-Autopatcher-Android/releases
+
+AM2R-1.5.5.14-dual-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.14/AM2R-1.5.5.14-dual-source.zip
+  SHA-256: d7aacee8abd7553ba4f2a2b213f6e38e9363594af2e98816200562e3a27ef69b
+AM2R-1.5.5.14-standard-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.14/AM2R-1.5.5.14-standard-source.zip
+  SHA-256: 626c90a3f5b9d2e5670792a9826f068c21575900d5ca0f6f2ea436f36096d1c8
+AM2R-1.5.5.13-dual-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.13/AM2R-1.5.5.13-dual-source.zip
+  SHA-256: f9bf3e441f90b57301d9e6a515b22ba9327d4be1d207e4756334f59fb920738c
+AM2R-1.5.5.13-standard-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.13/AM2R-1.5.5.13-standard-source.zip
+  SHA-256: 7ebd899ed3014dc0df7f58188d4e8d82b063ded809253f4634fb02dd5e763975
+AM2R-1.5.5.13-beta2-dual-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.13-beta-2/AM2R-1.5.5.13-beta2-dual-source.zip
+  SHA-256: f8588bc87a76207833259a713296a36885064ddd9c98107cb052a36a628c0cce
+AM2R-1.5.5.13-beta2-standard-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.13-beta-2/AM2R-1.5.5.13-beta2-standard-source.zip
+  SHA-256: fdb15abaa6ad863439fad52e7a0382e47b0b254f0c8141e0ad44798480476b59
+AM2R-1.5.5.12-hotfix1-dual-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.12-hotfix-1/AM2R-1.5.5.12-hotfix1-dual-source.zip
+  SHA-256: aaeb79402c44b84fad7ebab9ec9d390db7081edc27e070d1de7d4058f0ea725a
+AM2R-1.5.5.12-hotfix1-standard-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.12-hotfix-1/AM2R-1.5.5.12-hotfix1-standard-source.zip
+  SHA-256: d784b3db615553d0ebdb4ce9a97cb740a867c3e0f3fcde68c064ee1b9b9ba004
+AM2R-1.5.5.12-dual-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.12/AM2R-1.5.5.12-dual-source.zip
+  SHA-256: 6ee68d8597fd21bca8850bc23736722b38a4982ac1a686aa1e37f1d15fab55c3
+AM2R-1.5.5.12-standard-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.12/AM2R-1.5.5.12-standard-source.zip
+  SHA-256: 5f7fd48ef8218dc7c8632e58546f47b8484b01b7733589f64a12ab1909258fee
+AM2R-1.5.5.13-beta-dual-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.13-beta/AM2R-1.5.5.13-beta-dual-source.zip
+  SHA-256: 88dd0bd6eaa96d2bda39d13bb7848919da31dacafbc542e630232c3b3c304427
+AM2R-1.5.5.13-beta-standard-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.13-beta/AM2R-1.5.5.13-beta-standard-source.zip
+  SHA-256: c25b747f51bdea8b8e9b759631b696d4ed3cf91dbb6b872b7f80c14e3cfbb7fe
+AM2R-1.5.5.11-hotfix1-dual-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.11-hotfix-1/AM2R-1.5.5.11-hotfix1-dual-source.zip
+  SHA-256: b4518377eb8004b98229413f4c4f4530b6950c1aced8e943cf2785edfe008bbd
+AM2R-1.5.5.11-hotfix1-standard-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.11-hotfix-1/AM2R-1.5.5.11-hotfix1-standard-source.zip
+  SHA-256: 48690eac98159cbe9be0f451500e47f8410f8b3bd2c02327857ea168fba3c3dd
+AM2R-1.5.5.11-dual-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.11/AM2R-1.5.5.11-dual-source.zip
+  SHA-256: d52fed2ff5057ee0d4826b23df0141e248f7fab708442e17ca13a671bcc989f4
+AM2R-1.5.5.11-standard-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.11/AM2R-1.5.5.11-standard-source.zip
+  SHA-256: 794985a2b65d18da12ab9984dd2ec89991aae45a0db39668e58100dd2658fa7b
+AM2R-1.5.5.10-hotfix1-dual-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.10-hotfix-1/AM2R-1.5.5.10-hotfix1-dual-source.zip
+  SHA-256: 53151488ae1186dd44e8a83e889affa8817a76edeaf2552f61c23f6509d72908
+AM2R-1.5.5.10-hotfix1-standard-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.10-hotfix-1/AM2R-1.5.5.10-hotfix1-standard-source.zip
+  SHA-256: de3326a75effc61c84ad99840ef7cf828c5632db84efa388b4d12a9601803088
+AM2R-1.5.5.10-dual-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.10/AM2R-1.5.5.10-dual-source.zip
+  SHA-256: b293dfeaf8b88c1f5402b1e8ff4cd9f71c8fc18228adf51b5c41475d1e83daff
+AM2R-1.5.5.10-standard-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.10/AM2R-1.5.5.10-standard-source.zip
+  SHA-256: de3326a75effc61c84ad99840ef7cf828c5632db84efa388b4d12a9601803088
+AM2R-1.5.5.9-dual-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.9/AM2R-1.5.5.9-dual-source.zip
+  SHA-256: 9853e21e4d24fde6d911790a6fb835b262c4179709a8f1f9e45a93953407a507
+AM2R-1.5.5.9-standard-source.zip
+  https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/download/v1.5.5.9/AM2R-1.5.5.9-standard-source.zip
+  SHA-256: 4aa77563b126974f177a9e0e191a9e1908733da51d9557dade56c7cdcf6b365e
+
+Earlier repository releases publish the Autopatcher code, not GameMaker game-source archives.
+Autopatcher source archives and GitHub automatic repository snapshots are not game projects.
+Future game releases require a catalog update when their source manifest is new.
+The tool version is independent of game versions. Restoration never upgrades game code.
+Legacy local import reports use a clean note; internal build markers are omitted.

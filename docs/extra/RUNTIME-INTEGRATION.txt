@@ -1,0 +1,31 @@
+Android runtime integration — 2026.100.0.1046
+
+Use your own licensed runtime installation. Back up its templates before
+making local changes; an engine update can replace them.
+
+Controller keys
+In android/runner/ProjectFiles/src/main/java/YYAndroidPackageDomain/
+YYAndroidPackageCompany/YYAndroidPackageProduct/RunnerActivity.java, locate
+dispatchKeyEvent. Insert runtime-controller-keys.java.inc immediately after
+the existing Gamepad.handleKeyEvent(event) call, before fallback dispatch.
+Insert it only once.
+
+The original runner already feeds the key into gamepad state. The added block
+consumes gamepad/joystick keys after that, so Android's fallback mapping cannot
+turn controller B into a system Back action. System volume keys remain usable.
+This is a key-dispatch correction, not an input-device discovery replacement.
+The snippet is the added port implementation; the runner source is not bundled.
+
+Android version metadata
+Apply prepare_game_metadata.py from the matching Autopatcher source to an isolated
+runtime copy. Both game packages use versionCode 1005014. The version names are
+1.5.5.14 (Standard) and 1.5.5.14 DS (Dual Screen). Preserve the numeric
+GameMaker version and game ID. Verify the final manifest before delivery.
+
+Android extensions
+Verify the generated build includes the Java source from each extension.
+On case-sensitive filesystems the generated cache may look for a lowercase
+android directory while using Android. Check that both resolve to the same
+generated directory if extension sources are missing. Do not ship that cache.
+Exercise controller B/Back, reconnect, vibration, backup/restore, and (for the
+Dual Screen edition) secondary display creation on the compiled build.

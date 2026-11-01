@@ -1,0 +1,36 @@
+Building the modern .14 developer source
+
+1. Restore assets with the matching AM2R Project Restore Tool kit and your original
+   AM2R 1.1 ZIP. The old restore_local_assets.py helper and legacy GMXDataSync
+   executable are not needed for this source archive. The new restorer verifies
+   the versioned asset-inputs.json manifest and leaves source files unchanged.
+2. Install GameMaker Beta IDE 2026.100.0.1083 and runtime 2026.100.0.1046 through
+   your authorized GameMaker installation. Obtain the appropriate Android SDK,
+   NDK and JDK required by that runtime. The runtime is not part of this archive.
+3. Open AM2R-project.yyp. Keep resource names, IDs and existing registration order.
+   The new Android Port Asset Browser groups are explained in SOURCE-MAP.txt.
+4. Build Android ARM64 with YYC. The runtime-side controller correction and
+   extension-dispatch cache must also be applied to a private runtime copy for
+   equivalent input and performance behavior. See RUNTIME-INTEGRATION.txt.
+
+The matching .14 Autopatcher source contains prepare_game_metadata.py,
+prepare_runtime_performance.py and game-metadata/game.json. Use that matching
+source version to prepare an isolated runtime copy. Restored project artwork
+already matches this snapshot; regenerating icons is not needed for restoration.
+The Android version metadata for this release is versionCode 1005014,
+with version names 1.5.5.14 and 1.5.5.14 DS. The in-game title stays 1.5.5.
+
+Use your own key and a separate package ID for development installs. A locally
+signed APK cannot replace a release signed with another key. Do not put signing
+credentials, machine-specific preferences or proprietary runtime files in a source
+archive. The supplied defaults preserve the original game IDs and release metadata;
+restoration does not install anything or change an existing Android application.
+
+The snapshot contains .13 gameplay, display and performance changes, including
+the completed localization and source-organization work. Both complete editions
+remain independent projects. A manifest/file check proves the expected inputs
+were restored; APK timestamps, signing and local build settings can still differ.
+
+No game, assets or runtime are downloaded by the restoration tool. New user code
+edits are preserved and reported. A conflict with an existing different asset must
+be resolved by its owner before that original file can be restored.

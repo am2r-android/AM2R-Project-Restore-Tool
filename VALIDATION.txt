@@ -1,0 +1,50 @@
+AM2R Project Restore Tool 0.2.0 — validation
+
+Catalog coverage
+All 22 attached Standard and Dual Screen game-source archives from the public
+Android Autopatcher releases through 1.5.5.14 were downloaded or matched to their
+published SHA-256 checksums. This includes the published betas and hotfixes.
+There are 21 distinct ZIP contents and 13 original asset manifests; two release
+attachments contain the same Standard source archive.
+
+Every archive was restored in offline Debian 12 without system Python or xdelta3.
+Independent checks confirmed every source file and original manifest remained
+unchanged, all registered project resources were present, and restored media
+matched the release's hashes. The catalog's xdelta encode/decode check passed.
+
+The program was subsequently renamed to AM2R Project Restore Tool (PRT). Its
+restoration logic and all 24 catalog files were checked against the preceding
+verified build and are unchanged. The renamed Windows and Linux applications
+were rebuilt and each restored .14 Standard successfully, with no missing or
+different assets and no missing or modified source. Both GUIs were inspected.
+
+Legacy import reports receive an explanatory note instead of machine-specific
+text. One legacy internal build marker is omitted. These are explicitly listed
+in restoration reports; artwork, audio, fonts and language files are exact.
+
+Portable Windows
+The renamed Windows x86_64 app was checked on clean Windows 11 without installed
+Python or a system xdelta3 decoder. Its restoration and independent check used
+the final public ZIP. The native source suite ran 37 checks: 36 passed; symbolic
+link creation was unavailable to that account. NTFS junction rejection passed.
+The unchanged catalog was also previously checked against .12 Dual Screen on
+clean Windows 11.
+
+Portable Linux
+The Linux x86_64 app was built in Debian 12 with Python 3.11.2. The renamed GUI
+and version output were inspected, and the portable restoration was tested in
+offline Debian 12 without system Python or xdelta3. The source suite ran 37
+checks: 36 passed and the Windows-only junction test was skipped on Linux.
+Linux needs glibc 2.36 or newer and X11 or XWayland with desktop font support.
+
+Package verification
+Both apps include Python, Tcl/Tk, the native decoder and dependency notices.
+Internal file checksums, archive integrity, embedded utility sources and Linux
+executable modes/symbolic links were checked. Windows ZIP paths use standard
+forward slashes; file contents are unchanged from the native build.
+
+These are restoration and packaging checks, not tests on every OS distribution
+or a promise of identical game recompilation. GameMaker and its Android toolchain
+remain separate licensed installations. Future source manifests require a
+catalog update; utility version numbers remain independent of game releases.
+Download checksums are in SHA256SUMS.
